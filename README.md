@@ -9,10 +9,15 @@ Use aliases: SELECT t.name FROM example_table t
 You will use the `ON`, `WHERE` and `AND` keywords.  
 
 
-==SOLUTION==
+==SOLUTION==  
 SELECT b.starttime  
     FROM cd.bookings b  
     JOIN cd.members m  
 ON b.memid = m.memid  
 WHERE m.firstname = 'David'  
 AND m.surname = 'Farrell'  
+
+
+```python
+
+```
