@@ -1,7 +1,6 @@
 From pgexercises.com
 
-==SOLUTION==
-first solution
+*YOUR ANSWER HERE*
 
 
 ```python
