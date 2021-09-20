@@ -1,4 +1,4 @@
-From pgexercises.com
+[pgexercises.com joins](https://pgexercises.com/questions/joins/)
 
 [Simple Join #1](https://pgexercises.com/questions/joins/simplejoin.html):
 
@@ -19,6 +19,21 @@ How can you produce a list of the start times for bookings for tennis courts, fo
 
 Datetime objects ('2021-09-21') can be used with >/< logic  
 Use the `LIKE` and `%` operators to match the strings
+
+*YOUR ANSWER HERE*
+
+[Self Join](https://pgexercises.com/questions/joins/self.html)
+
+How can you output a list of all members who have recommended another member? Ensure that there are no duplicates in the list, and that results are ordered by (surname, firstname).
+
+**HINTs**  
+Use the DISTINCT operator  
+Use aliases  
+Self Joins are possible.  
+
+
+
+
 
 *YOUR ANSWER HERE*
 
