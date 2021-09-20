@@ -1,4 +1,4 @@
-From pgexercises.com
+[pgexercises.com joins](https://pgexercises.com/questions/joins/)
 
 [Simple Join #1](https://pgexercises.com/questions/joins/simplejoin.html):
 
@@ -33,6 +33,26 @@ WHERE b.starttime > '2012-09-21'
 AND b.starttime < '2012-09-22'  
 AND f.name LIKE 'Tennis Court%'  
 ORDER BY b.starttime  
+
+[Self Join](https://pgexercises.com/questions/joins/self.html)
+
+How can you output a list of all members who have recommended another member? Ensure that there are no duplicates in the list, and that results are ordered by (surname, firstname).
+
+**HINTs**  
+Use the DISTINCT operator  
+Use aliases  
+Self Joins are possible.  
+
+
+
+
+
+SELECT DISTINCT m2.firstname, m2.surname
+	FROM cd.members m
+	JOIN cd.members m2
+	ON m.recommendedby = m2.memid
+	ORDER BY m2.surname, m2.surname
+
 
 
 ```python
